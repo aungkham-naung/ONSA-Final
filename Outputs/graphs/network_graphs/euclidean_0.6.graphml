@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d3" for="edge" attr.name="weight" attr.type="float"/>
+<key id="d2" for="node" attr.name="closeness_centrality" attr.type="double"/>
+<key id="d1" for="node" attr.name="eigenvector_centrality" attr.type="double"/>
+<key id="d0" for="node" attr.name="degree_centrality" attr.type="double"/>
+<graph edgedefault="undirected"><node id="Englewood">
+  <data key="d0">0.0</data>
+  <data key="d1">1.7860265910260497e-09</data>
+  <data key="d2">0.0</data>
+</node>
+<node id="West_Englewood">
+  <data key="d0">0.0</data>
+  <data key="d1">1.7860265910260497e-09</data>
+  <data key="d2">0.0</data>
+</node>
+<node id="Irving_Park">
+  <data key="d0">0.375</data>
+  <data key="d1">0.4747510365814448</data>
+  <data key="d2">0.4</data>
+</node>
+<node id="JeffersonPark">
+  <data key="d0">0.25</data>
+  <data key="d1">0.40669253048717363</data>
+  <data key="d2">0.2857142857142857</data>
+</node>
+<node id="Lakeview">
+  <data key="d0">0.375</data>
+  <data key="d1">0.5370765366285964</data>
+  <data key="d2">0.4</data>
+</node>
+<node id="LincolnPark">
+  <data key="d0">0.375</data>
+  <data key="d1">0.5370765366285964</data>
+  <data key="d2">0.4</data>
+</node>
+<node id="NearNorthSide">
+  <data key="d0">0.0</data>
+  <data key="d1">1.7860265910260497e-09</data>
+  <data key="d2">0.0</data>
+</node>
+<node id="Portage_Park">
+  <data key="d0">0.125</data>
+  <data key="d1">0.17975045623543423</data>
+  <data key="d2">0.25</data>
+</node>
+<node id="South_Lawndale">
+  <data key="d0">0.0</data>
+  <data key="d1">1.7860265910260497e-09</data>
+  <data key="d2">0.0</data>
+</node>
+<edge source="Irving_Park" target="Lakeview">
+  <data key="d3">0.6825770612261888</data>
+</edge>
+<edge source="Irving_Park" target="LincolnPark">
+  <data key="d3">0.8296875906171184</data>
+</edge>
+<edge source="Irving_Park" target="Portage_Park">
+  <data key="d3">0.6303069550805427</data>
+</edge>
+<edge source="JeffersonPark" target="Lakeview">
+  <data key="d3">0.7740036909331196</data>
+</edge>
+<edge source="JeffersonPark" target="LincolnPark">
+  <data key="d3">0.6443097442263908</data>
+</edge>
+<edge source="Lakeview" target="LincolnPark">
+  <data key="d3">0.7935578254137425</data>
+</edge>
+</graph></graphml>
