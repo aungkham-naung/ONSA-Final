@@ -37,7 +37,6 @@ We use these nine areas to explore how opportunities, resources, and living cond
 .
 ├── data
 │   ├── raw
-│   │   ├── ONSA_Data/                  # Original per-CA ACS/ONSA CSVs
 │   │   └── tract_to_CA_crosswalk.csv   # 2020 Census Tracts → Community Areas
 │   ├── intermediate
 │   │   └── agg_data.csv                # Combined tract/block-group level data
